@@ -1,0 +1,36 @@
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  width: 640px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.range {
+  width: 100%;
+  margin: 0 10px;
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background: #f00;
+  margin: -5px;
+}
+
+.range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  background: #aaa;
+}
+
+.button {
+  width: 50px;
+}

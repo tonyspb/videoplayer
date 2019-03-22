@@ -1,2 +1,0 @@
-# videoplayer
-Created with CodeSandbox
